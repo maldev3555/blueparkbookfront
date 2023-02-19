@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React + TypeScript + Replit</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+		
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Property Listing Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Property Listing Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Host a Property</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+        <label for="checkin">Check-in:</label>
+        <input type="date" id="checkin" name="checkin">
+        <label for="checkout">Check-out:</label>
+        <input type="date" id="checkout" name="checkout">
+        <label for="guests">Guests:</label>
+        <select id="guests" name="guests">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <button type="submit">Search</button>
+      </form>
+      <section id="results">
+        <h2>Search Results</h2>
+        <ul>
+          <li>
+            <img src="property1.jpg" alt="MOCHA HOTEL 1">
+            <h3>Lounge Area</h3>
+            <p>Get discount on every room </p>
+            <a href="#">Book Now</a>
+          </li>
+          <li>
+            <img src="property2.jpg" alt="Property 2">
+            <h3>Property 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada sapien quis ultrices viverra. Duis volutpat odio vel metus viverra, eget convallis urna commodo. </p>
+            <a href="#">Book Now</a>
+          </li>
+          <li>
+            <img src="property3.jpg" alt="Property 3">
+            <h3>Property 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada sapien quis ultrices viverra. Duis volutpat odio vel metus viverra, eget convallis urna commodo. </p>
+            <a href="#">Book Now</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Property Listing Website &copy; 2023</p>
+    </footer>
+  </body>
+</html>
